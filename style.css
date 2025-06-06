@@ -219,7 +219,6 @@ nav ul li a:hover::after {
   object-position: center;
 }
 
-/* About Section */
 .about {
   background-color: var(--white);
 }
@@ -240,11 +239,10 @@ nav ul li a:hover::after {
   line-height: 1.8;
 }
 
-/* === Education Section Styles === */
 .about-text h3 {
   margin-top: 30px;
   font-size: 1.5rem;
-  color: var(--primary-color); /* optional: define this in your root or use a color like #333 */
+  color: var(--primary-color);
 }
 
 .about-text ul {
@@ -261,7 +259,7 @@ nav ul li a:hover::after {
 }
 
 .about-text ul li::before {
-  content: "🎓"; /* education icon */
+  content: "🎓"; 
   position: absolute;
   left: 0;
   top: 0;
